@@ -32,9 +32,9 @@ const db = getFirestore(app);
 let peopleCounter = document.getElementById("peopleCounter");
 let vibraciones = document.getElementById("vibraciones");
 
-const unsub = onSnapshot(doc(db, "edificio1", "habitacion2010"), (doc) => {
-    peopleCounter.innerHTML = doc.data().PeopleCounter;
-    vibraciones.innerHTML = doc.data().vibraciones;
+const unsub = onSnapshot(doc(db, "Edificio1", "Salon1"), (doc) => {
+    peopleCounter.innerHTML = doc.data().people;
+    vibraciones.innerHTML = doc.data().vibrations;
 });
 
 /* // Initialize Firebase
