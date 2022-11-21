@@ -1,0 +1,49 @@
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.subtitle {
+    font-size: 1.5em;  
+    color: #000000;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Center a section vertically */
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+}
+
+.card-info {
+    border-radius: 25px;
+}
+
+ul {
+    list-style-type: none;
+  }
